@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Multicloud DevOps Veera Sir Naresh IT Store - Shop Smart, Live Better</title>
-  <meta name="description" content="Multicloud DevOps Veera Sir Naresh IT Store multicloud ecommerce home. Fashion, mobiles, electronics, beauty, home, payments, grocery, music and more.">
+  <meta name="description" content="Multicloud DevOps Veera Sir Naresh IT narni multicloud ecommerce home. Fashion, mobiles, electronics, beauty, home, payments, grocery, music and more.">
   <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap">
@@ -132,14 +132,18 @@
     .cat-item:hover, .cat-item.active { border-bottom-color: var(--brand); color: var(--brand); }
     .cat-emoji { font-size: 20px; }
     .app-heading {
-      max-width: 1280px; margin: 14px auto 0; padding: 0 16px;
-      color: #0ae75b; font-size: clamp(18px, 2.4vw, 28px);
-      line-height: 1.15; font-weight: 750; letter-spacing: 0;
+      max-width: 1280px; margin: 18px auto 0; padding: 0 16px;
+      color: var(--brand-dark); font-family: "Space Grotesk", "Nunito", Arial, sans-serif;
+      font-size: clamp(16px, 1.8vw, 24px);
+      line-height: 1.12; font-weight: 800; letter-spacing: 0;
+      text-align: center;
     }
     .app-heading span {
-      display: inline-block; padding: 8px 14px; border-radius: 8px;
-      background: linear-gradient(90deg, #fff7cc, #fff);
-      box-shadow: 0 4px 14px rgba(193, 18, 31, 0.1);
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 8px 16px; border: 1px solid rgba(193, 18, 31, 0.16);
+      border-radius: 8px;
+      background: linear-gradient(90deg, #fffdf2 0%, #ffffff 52%, #fff6d6 100%);
+      box-shadow: 0 8px 24px rgba(120, 0, 0, 0.08);
     }
     .banner-wrap {
       max-width: 1280px; margin: 10px auto 0; padding: 0 16px;
@@ -574,6 +578,8 @@
       .topbar-inner { height: auto; flex-wrap: wrap; padding: 10px 12px; gap: 8px; }
       .search-wrap { order: 3; flex-basis: 100%; max-width: 100%; }
       .brand { font-size: 18px; }
+      .app-heading { margin-top: 12px; font-size: 16px; }
+      .app-heading span { width: 100%; padding: 8px 10px; }
       .topbar-btn { padding: 8px; }
       .topbar-btn span:not(.icon):not(.cart-badge) { display: none; }
       .topbar-btn .icon { font-size: 22px; }
