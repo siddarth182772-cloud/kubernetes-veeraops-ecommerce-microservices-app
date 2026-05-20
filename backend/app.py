@@ -43,7 +43,6 @@ app.config.update(
     MAIL_PASSWORD=os.getenv("MAIL_PASSWORD", ""),
     MAIL_DEFAULT_SENDER=os.getenv("MAIL_USERNAME", "")
     )
-)
 
 mail = Mail(app)
 
