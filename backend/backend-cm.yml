@@ -21,3 +21,5 @@ data:
   MAIL_USERNAME: "veeraopstechnologies@gmail.com" 
   MAIL_PASSWORD: "myak lkvr bwdr wkfs"
   MAIL_DEFAULT_SENDER: "veeraopstechnologies@gmail.com"
+  MAIL_USE_TLS: true
+  MAIL_USE_SSL: false
